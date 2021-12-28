@@ -1,0 +1,372 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev "1"
+Comp ""
+Comment1 "Designed for OSH Park 2 Layer Prototype"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 9DIN2VGA:Main_Landing LD1
+U 1 1 6179BB89
+P 3650 2950
+F 0 "LD1" H 3967 3115 50  0000 C CNN
+F 1 "Main_Landing" H 3967 3024 50  0000 C CNN
+F 2 "9DIN2VGA:Main_PCB_Landing_Pads" H 4000 3050 50  0001 C CNN
+F 3 "" H 4000 3050 50  0001 C CNN
+	1    3650 2950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 9DIN2VGA:VGA P1
+U 1 1 617A130B
+P 7600 3200
+F 0 "P1" H 7928 3196 50  0000 L CNN
+F 1 "VGA" H 7928 3105 50  0000 L CNN
+F 2 "9DIN2VGA:VGA_female_rightangle_slim" H 7100 4500 50  0001 L BNN
+F 3 "" H 7600 3200 50  0001 L BNN
+F 4 "Amphenol" H 7200 4750 50  0001 L BNN "MANUFACTURER"
+F 5 "12.55mm" H 7750 4750 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 6 "Manufacturer Recommendations" H 7050 5000 50  0001 L BNN "STANDARD"
+F 7 "N/A" H 8450 5000 50  0001 L BNN "PARTREV"
+	1    7600 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 9DIN2VGA:3.5mm_vertical J1
+U 1 1 617A5292
+P 7600 5100
+F 0 "J1" H 7270 5054 50  0000 R CNN
+F 1 "3.5mm_vertical" H 7270 5145 50  0000 R CNN
+F 2 "9DIN2VGA:3.5mm_vertical" H 7500 5500 50  0001 L BNN
+F 3 "" H 7600 5100 50  0001 L BNN
+F 4 "Manufacturer recommendation" H 7250 5600 50  0001 L BNN "STANDARD"
+F 5 "1.01" H 8550 5600 50  0001 L BNN "PARTREV"
+F 6 "CUI" H 8500 5500 50  0001 L BNN "MANUFACTURER"
+	1    7600 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 617AA204
+P 6950 5600
+F 0 "#PWR0101" H 6950 5350 50  0001 C CNN
+F 1 "GND" H 6955 5427 50  0000 C CNN
+F 2 "" H 6950 5600 50  0001 C CNN
+F 3 "" H 6950 5600 50  0001 C CNN
+	1    6950 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 617AA41C
+P 3950 4850
+F 0 "#PWR0102" H 3950 4600 50  0001 C CNN
+F 1 "GND" H 3955 4677 50  0000 C CNN
+F 2 "" H 3950 4850 50  0001 C CNN
+F 3 "" H 3950 4850 50  0001 C CNN
+	1    3950 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L resistor:Resistor_0603 R1
+U 1 1 617ABB73
+P 5150 2300
+F 0 "R1" H 5150 2542 50  0000 C CNN
+F 1 "75 Ohm" H 5150 2451 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4900 2550 50  0001 L BNN
+F 3 "" H 5150 2300 50  0001 L BNN
+	1    5150 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L resistor:Resistor_0603 R2
+U 1 1 617AF0D6
+P 5150 2700
+F 0 "R2" H 5150 2942 50  0000 C CNN
+F 1 "75 Ohm" H 5150 2851 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4900 2950 50  0001 L BNN
+F 3 "" H 5150 2700 50  0001 L BNN
+	1    5150 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L resistor:Resistor_0603 R3
+U 1 1 617B0328
+P 5150 3100
+F 0 "R3" H 5150 3342 50  0000 C CNN
+F 1 "75 Ohm" H 5150 3251 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4900 3350 50  0001 L BNN
+F 3 "" H 5150 3100 50  0001 L BNN
+	1    5150 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L SMD_Cap:Cap_0603 C1
+U 1 1 617B0FD5
+P 5850 2300
+F 0 "C1" H 5900 2540 50  0000 C CNN
+F 1 "220uF" H 5900 2449 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5650 2600 50  0001 L BNN
+F 3 "" H 5850 2300 50  0001 L BNN
+	1    5850 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SMD_Cap:Cap_0603 C2
+U 1 1 617B3657
+P 5850 2700
+F 0 "C2" H 5900 2940 50  0000 C CNN
+F 1 "220uF" H 5900 2849 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5650 3000 50  0001 L BNN
+F 3 "" H 5850 2700 50  0001 L BNN
+	1    5850 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L SMD_Cap:Cap_0603 C3
+U 1 1 617B48E2
+P 5850 3100
+F 0 "C3" H 5900 3340 50  0000 C CNN
+F 1 "220uF" H 5900 3249 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5650 3400 50  0001 L BNN
+F 3 "" H 5850 3100 50  0001 L BNN
+	1    5850 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 2300 5750 2300
+Wire Wire Line
+	5550 2700 5750 2700
+Wire Wire Line
+	5550 3100 5750 3100
+Wire Wire Line
+	7100 2300 6050 2300
+Wire Wire Line
+	4750 2300 4200 2300
+Wire Wire Line
+	4200 2300 4200 4000
+Wire Wire Line
+	4200 4000 3750 4000
+Wire Wire Line
+	7100 2400 6250 2400
+Wire Wire Line
+	6250 2400 6250 2700
+Wire Wire Line
+	6250 2700 6050 2700
+Wire Wire Line
+	4750 2700 4350 2700
+Wire Wire Line
+	4350 2700 4350 3400
+Wire Wire Line
+	4350 3400 3750 3400
+Wire Wire Line
+	7100 2500 6400 2500
+Wire Wire Line
+	6400 3100 6050 3100
+Wire Wire Line
+	6400 2500 6400 3100
+Wire Wire Line
+	3750 3100 4750 3100
+Wire Wire Line
+	3750 3250 6550 3250
+Wire Wire Line
+	6550 3250 6550 3200
+Wire Wire Line
+	6550 3200 7100 3200
+Wire Wire Line
+	3750 4150 5900 4150
+Wire Wire Line
+	5900 4150 5900 4900
+Wire Wire Line
+	5900 4900 7100 4900
+Wire Wire Line
+	3750 4300 5600 4300
+Wire Wire Line
+	5600 4300 5600 5200
+Wire Wire Line
+	5600 5200 7100 5200
+Wire Wire Line
+	7100 5000 6450 5000
+Wire Wire Line
+	6450 3600 7100 3600
+Wire Wire Line
+	7100 5100 6650 5100
+Wire Wire Line
+	6650 3900 7100 3900
+$Comp
+L SMD_Cap:Cap_0603 C5
+U 1 1 617C671F
+P 6450 4300
+F 0 "C5" V 6550 4550 50  0000 R CNN
+F 1 "10uF" V 6450 4600 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6250 4600 50  0001 L BNN
+F 3 "" H 6450 4300 50  0001 L BNN
+	1    6450 4300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SMD_Cap:Cap_0603 C6
+U 1 1 617C7B50
+P 6650 4450
+F 0 "C6" V 6750 4250 50  0000 C CNN
+F 1 "10uF" V 6650 4250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6450 4750 50  0001 L BNN
+F 3 "" H 6650 4450 50  0001 L BNN
+	1    6650 4450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6450 4100 6450 3600
+Wire Wire Line
+	6650 3900 6650 4250
+Wire Wire Line
+	6650 4550 6650 5100
+Wire Wire Line
+	6450 4400 6450 5000
+Wire Wire Line
+	3750 4450 3950 4450
+Wire Wire Line
+	3950 4450 3950 4850
+Wire Wire Line
+	7100 2700 6950 2700
+Wire Wire Line
+	6950 2700 6950 2900
+Wire Wire Line
+	6950 2900 7100 2900
+Wire Wire Line
+	6950 2900 6950 3000
+Connection ~ 6950 2900
+Wire Wire Line
+	7100 5300 6950 5300
+Connection ~ 6950 5300
+Wire Wire Line
+	6950 5300 6950 5600
+Wire Wire Line
+	7100 4100 6950 4100
+Connection ~ 6950 4100
+Wire Wire Line
+	6950 4100 6950 4200
+Wire Wire Line
+	7100 4200 6950 4200
+Connection ~ 6950 4200
+Wire Wire Line
+	6950 4200 6950 5300
+Wire Wire Line
+	7100 3300 6950 3300
+Connection ~ 6950 3300
+Wire Wire Line
+	6950 3300 6950 4100
+Wire Wire Line
+	7100 3000 6950 3000
+Connection ~ 6950 3000
+Wire Wire Line
+	6950 3000 6950 3100
+Wire Wire Line
+	7100 3100 6950 3100
+Connection ~ 6950 3100
+Wire Wire Line
+	6950 3100 6950 3300
+Text Label 3850 3100 0    50   ~ 0
+Blue_9P
+Text Label 3850 3250 0    50   ~ 0
++5V
+Text Label 3850 3400 0    50   ~ 0
+Green_9P
+Text Label 3900 3700 0    50   ~ 0
+CSync
+Text Label 3850 4000 0    50   ~ 0
+Red_9P
+Text Label 3850 4150 0    50   ~ 0
+Audio_L_9P
+Text Label 3850 4300 0    50   ~ 0
+Audio_R_9P
+Text Label 5600 2300 1    50   ~ 0
+Red_Mid
+Text Label 5700 2700 1    50   ~ 0
+Green_Mid
+Text Label 5600 3100 1    50   ~ 0
+Blue_Mid
+Text Label 6350 2300 0    50   ~ 0
+Red_VGA
+Text Label 6450 2400 0    50   ~ 0
+Green_VGA
+Text Label 6550 2500 0    50   ~ 0
+Blue_VGA
+Text Label 6650 4800 0    50   ~ 0
+R_Mid
+Text Label 6450 4650 0    50   ~ 0
+L_Mid
+Text Label 6550 3600 0    50   ~ 0
+Audio_L_VGA
+Text Label 6750 3900 0    50   ~ 0
+Audio_R_VGA
+$Comp
+L resistor:Resistor_0603 R4
+U 1 1 617A2536
+P 4750 3700
+F 0 "R4" H 4750 3942 50  0000 C CNN
+F 1 "470 Ohm" H 4750 3851 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4500 3950 50  0001 L BNN
+F 3 "" H 4750 3700 50  0001 L BNN
+	1    4750 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 3700 4350 3700
+Text Label 6100 3950 3    50   ~ 0
+Attenuated_CSync
+$Comp
+L Jumper:SolderJumper_3_Bridged12 JP1
+U 1 1 619A1DD5
+P 6100 3700
+F 0 "JP1" V 6100 3768 50  0000 L CNN
+F 1 "SolderJumper_3_Bridged12" V 6055 3768 50  0001 L CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm" H 6100 3700 50  0001 C CNN
+F 3 "~" H 6100 3700 50  0001 C CNN
+	1    6100 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 3700 6250 3700
+Wire Wire Line
+	5150 3700 5300 3700
+Wire Wire Line
+	5300 3700 5300 3950
+Wire Wire Line
+	6100 3950 6100 3900
+Wire Wire Line
+	3750 3550 4500 3550
+Wire Wire Line
+	4500 3550 4500 3400
+Wire Wire Line
+	4500 3400 6100 3400
+Wire Wire Line
+	6100 3400 6100 3500
+Text Label 5300 3400 0    50   ~ 0
+CVBS
+Text Label 6600 3700 0    50   ~ 0
+Sync
+Wire Wire Line
+	5850 3950 6100 3950
+Wire Wire Line
+	5300 3950 5550 3950
+$Comp
+L SMD_Cap:Cap_0603 C4
+U 1 1 619AE29A
+P 5650 3950
+F 0 "C4" H 5700 4190 50  0000 C CNN
+F 1 "100uF" H 5700 4099 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5450 4250 50  0001 L BNN
+F 3 "" H 5650 3950 50  0001 L BNN
+	1    5650 3950
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

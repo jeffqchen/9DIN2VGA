@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name 9DIN2VGA)(type Legacy)(uri ${KIPRJMOD}/9DIN2VGA.lib)(options "")(descr ""))
+)
