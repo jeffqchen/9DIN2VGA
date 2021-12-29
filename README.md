@@ -19,7 +19,6 @@ The default sync signal used in this design is CSync. If you prefer composite vi
 
  Audio can be sent within the VGA cable, or extracted from the 3.5mm jack on the dongle. Buzzing may be noticeable when audio is transmitted through the VGA cable in certain scenes in certain games. This is due to insufficient shielding in most VGA cables. If you find the buzzing to be annoying, please use the 3.5mm jack on the dongle for audio output. This will ensure the cleanest possible audio.
 
-
 -----------
 
 ## Parts
@@ -32,7 +31,7 @@ PCB
 - Top Sub (0.8mm): https://oshpark.com/shared_projects/PPJPpJ3M
 - Bottom Sub (0.8mm): https://oshpark.com/shared_projects/QY4wR3iT
 
-**Note the Top & Bottom sub boards MUST be ordered with the 0.8mm thickness option, otherwise they won't fit!**
+  **Note the Top & Bottom sub boards MUST be ordered with the 0.8mm thickness option, otherwise they won't fit!**
 
 VGA Port Slim Female
 - https://www.aliexpress.com/item/4000596805684.html
@@ -71,7 +70,7 @@ Do **NOT** spread the metal shielding by too much or you'll have to spend some t
 
 <img src="./Pics/plug_02.jpg" width="400px" />
 
-You may also want to take this chance to slightly sand the left and right side of the outside of the metal shield, so it will be easier for solder to stick to the shielding later.
+You may also want to take this chance to slightly sand the left and right side of the outside of the metal shield, around the rear end, so it will be easier for solder to stick to the shielding later.
 
 ---------------
 
@@ -116,6 +115,8 @@ On the main PCB, solder in all the SMD components, as well as the headphone jack
 <img src="./Pics/asm_02.jpg" width="400px" />
 
 After soldering the headphone jack, use a side cutter to trim the protruding leads from it.
+
+Tin the L-shape exposed area with a small amount of solder on both sides.
 
 <img src="./Pics/asm_03.jpg" width="400px" />
 
