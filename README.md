@@ -65,7 +65,7 @@ Take apart the 9 pin mini DIN connector by removing the rubber outer casing, and
 
 <img src="./Pics/plug_01.jpg" width="400px" />
 
-Then, use a pair of pliers to slightly open up the metal barrel shielding, while pushing the plug core (black plastic with the pins) inward with another tool to remove the core from the metal shielding.
+Then, use a pair of pliers to slightly open up the rear end of the metal barrel shielding, while pushing the plug core (black plastic with the pins) inward with another tool from the front, to remove the core from the metal shielding.
 
 Do **NOT** spread the metal shielding by too much or you'll have to spend some time to bend it back into it's original shape afterwards.
 
