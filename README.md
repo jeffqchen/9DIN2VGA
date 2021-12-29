@@ -2,15 +2,15 @@
 
 <img src="./Pics/01.jpg" width="400px" /> <img src="./Pics/02.jpg" width="400px" />
 
-A dongle for console with 9 pin Mini DIN RGBs video output.
+A dongle for consoles with 9 pin Mini DIN RGBs video output.
 
 -----------
 
-
-This adapter allows you to plug into consoles that outputs RGBs and audio via a 9 pin Mini DIN jack and transmit the signals through a VGA cable. This includes but not limited to:
+This adapter allows you to plug into consoles that output RGBS and stereo audio via a 9 pin Mini DIN jack and transmits the signals through a VGA cable. This includes but not limited to:
 - Sega Genesis/Mega Drive 2
 - Sega Genesis/Mega Drive 1 with the [Triple Bypass mod](https://github.com/tianfeng33/triple-bypass-Version-2)
 - TerraOnion SSDS3
+- [3DORGB](https://github.com/citrus3000psi/3DORGB) with 9 pin mini DIN option
 
  <img src="./Pics/03.jpg" width="400px" />
  <img src="./Pics/04.jpg" width="400px" />
