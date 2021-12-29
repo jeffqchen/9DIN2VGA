@@ -2,7 +2,7 @@
 
 <img src="./Pics/01.jpg" width="400px" /> <img src="./Pics/02.jpg" width="400px" />
 
-A dongle for consoles with 9 pin Mini DIN RGBs video output.
+A dongle for consoles with 9 pin Mini DIN RGBs video output. This belong to my [series of VGA adapters](https://github.com/jeffqchen/Console-VGA-Dongle-Series) for various retro consoles and video equipments.
 
 -----------
 
