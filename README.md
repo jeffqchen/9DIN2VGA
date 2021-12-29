@@ -87,7 +87,7 @@ First, temporarily assemble the 3 boards together into their final position, and
 
 **IMPORTANT**
 
- *The plastic of the plug pin header is weak against heat and should not be heated for more than a few seconds in one go. Try to cool it down between soldering by blowing air on it.*
+ *The plastic of the plug core is weak against heat and should not be heated for more than a few seconds in one go. Try to cool it down between soldering by blowing air on it.*
 
  ----
 
