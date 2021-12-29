@@ -63,13 +63,13 @@ Print the parts with the mating surface downwards, with support.
 
 Take apart the 9 pin mini DIN connector by removing the rubber outer casing, and then splitting the hard plastic inner casing to reveal the metal shielding. You may discard the rubber and plastic parts.
 
-<img src="./Pics/Plug_01.jpg" width="400px" />
+<img src="./Pics/plug_01.jpg" width="400px" />
 
 Then, use a pair of pliers to slightly open up the metal barrel shielding, while pushing the plug core (black plastic with the pins) inward with another tool to remove the core from the metal shielding.
 
 Do **NOT** spread the metal shielding by too much or you'll have to spend some time to bend it back into it's original shape afterwards.
 
-<img src="./Pics/Plug_02.jpg" width="400px" />
+<img src="./Pics/plug_02.jpg" width="400px" />
 
 You may also want to take this chance to slightly sand the left and right side of the outside of the metal shield, so it will be easier for solder to stick to the shielding later.
 
@@ -127,7 +127,7 @@ Note the default configuration of this adapter uses the CSync signal for sync. I
 
 Insert the plug assembly into the inner side of the 3D printed shell. Align the hole on the shielding with the hole on the top side of the inner shell.
 
-<img src="./Pics/Plug_03.jpg" width="400px" />
+<img src="./Pics/plug_03.jpg" width="400px" />
 
 Trim the thread end of a M2x6mm machined screw so that its total length is 5.5mm (no more than 6mm). You may want to re-tap the end of the trimmed screw with a nut before moving onto the next step, since it's will make the next step a bit smoother.
 
