@@ -109,7 +109,7 @@ First, temporarily assemble the 3 boards together into their final position, and
 
 ------
 
-On the main PCB, solder in all the SMD components, as well as the headphone jack. DO NOT solder in the VGA plug yet.
+On the main PCB, solder in all the SMD components, as well as the headphone jack. Do **NOT** solder in the VGA plug yet.
 
 <img src="./Pics/asm_01.jpg" width="400px" />
 <img src="./Pics/asm_02.jpg" width="400px" />
