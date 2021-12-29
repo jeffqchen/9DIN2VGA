@@ -78,7 +78,7 @@ Soldering the plug PCBs in this project is essential and somewhat challenging. T
 
 **DO NOT solder the plug PCBs to the main PCB at this stage.**
 
-First, put the 3 boards together in their final position, and fix the assembly with the help from reverse tweezers or clamps. Try and fit the 0.8mm PCBs in between the gaps between the back side of the 3 rows of pins. Push the sub PCBs all the way until they touch the pin header. Make sure the pins and their pads are aligned properly.
+First, temporarily assemble the 3 boards together into their final position, and fix the assembly with the help from a pair of reverse tweezers or clamps. Fit the 0.8mm PCBs in between the gaps between the back side of the 3 rows of pins. Push the sub PCBs all the way until they touch the base of the pin. Make sure the pins and their pads are aligned properly.
 
 <img src="./Pics/Solder/01.jpg" width="400px" />
 <img src="./Pics/Solder/02.jpg" width="400px" />
