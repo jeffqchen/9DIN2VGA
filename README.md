@@ -120,7 +120,7 @@ Tin the L-shape exposed area with a small amount of solder on both sides.
 
 <img src="./Pics/asm_03.jpg" width="400px" />
 
-Note the default configuration of this adapter uses the CSync signal for sync. If you wish to use composite video for sync, you need to cut the connection between the triangle end and the center pad of the jumper, and then solder the CVBS pad with the center pad. You can also omit one of the 220uF capacitor for the sync line and the 470 Ohm resistor in this configuration, since they exist to decouple and attenuate the CSync signal.
+Note the default configuration of this adapter uses the CSync signal for sync. If you wish to use composite video for sync, you need to cut the connection between the triangle end and the center pad of the jumper, and then solder the CVBS pad with the center pad. You can also omit one of the 220uF capacitor for the sync line and the 470 Ohm resistor in this configuration, since they serve to decouple and attenuate the CSync signal.
 
 ------
 
