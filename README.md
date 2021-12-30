@@ -12,8 +12,7 @@ This adapter allows you to plug into consoles that output RGBS and stereo audio 
 - TerraOnion SSDS3
 - [3DORGB](https://github.com/citrus3000psi/3DORGB) with 9 pin mini DIN option
 
- <img src="./Pics/03.jpg" width="400px" />
- <img src="./Pics/04.jpg" width="400px" />
+ <img src="./Pics/03.jpg" width="400px" /> <img src="./Pics/04.jpg" width="400px" />
 
 The default sync signal used in this design is CSync. If you prefer composite video as sync, you can change it via the jumper by cutting the default connection and soldering the CVBS end in.
 
@@ -81,8 +80,7 @@ Soldering the plug PCBs in this project is essential and somewhat challenging. T
 
 First, temporarily assemble the 3 boards together into their final position, and fix the assembly with the help from a pair of reverse tweezers or clamps. Fit the 0.8mm PCBs in between the gaps between the back side of the 3 rows of pins. Push the sub PCBs all the way until they touch the base of the pin. Make sure the pins and their pads are aligned properly.
 
-<img src="./Pics/Solder/01.jpg" width="400px" />
-<img src="./Pics/Solder/02.jpg" width="400px" />
+<img src="./Pics/Solder/01.jpg" width="400px" /><img src="./Pics/Solder/02.jpg" width="400px" />
 
  ----
 
@@ -105,15 +103,13 @@ First, temporarily assemble the 3 boards together into their final position, and
 
  Fit the main PCB firmly into the shell and the plug and see if all the landing pads line up correctly:
 
- <img src="./Pics/Solder/07.jpg" width="400px" />
- <img src="./Pics/Solder/08.jpg" width="400px" />
+ <img src="./Pics/Solder/07.jpg" width="400px" /><img src="./Pics/Solder/08.jpg" width="400px" />
 
 ------
 
 On the main PCB, solder in all the SMD components, as well as the headphone jack. Do **NOT** solder in the VGA plug yet.
 
-<img src="./Pics/asm_01.jpg" width="400px" />
-<img src="./Pics/asm_02.jpg" width="400px" />
+<img src="./Pics/asm_01.jpg" width="400px" /><img src="./Pics/asm_02.jpg" width="400px" />
 
 After soldering the headphone jack, use a side cutter to trim the protruding leads from it.
 
@@ -137,9 +133,7 @@ Use a pair of tweezers, hold the nut and slide it inside the shielding cavity wi
 
 Check and make sure the end of the screw is **NOT** touching the plug PCB.
 
-<img src="./Pics/asm_04.jpg" width="400px" />
-
-<img src="./Pics/asm_05.jpg" width="400px" />
+<img src="./Pics/asm_04.jpg" width="400px" /><img src="./Pics/asm_05.jpg" width="400px" />
 
 -----
 
