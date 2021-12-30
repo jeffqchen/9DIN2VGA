@@ -41,6 +41,7 @@ VGA Port Slim Female
 
 Components:
 - [4x] SMD Capacitor 220uF 6.3V X5R, 1206 size
+  - Recommended part: [GRM31CR60J227ME11L](https://www.digikey.com/en/products/detail/GRM31CR60J227ME11L/490-13970-1-ND/6155800)
 - [2x] SMD Capacitor 10uF 6.3V, 0603 size
 - [1x] SMD Resistor 470 Ohm, 0603 size
 - [4x] SMD Resistor 75 Ohm, 0603 size
