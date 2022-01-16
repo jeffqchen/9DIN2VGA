@@ -163,3 +163,10 @@ Take a M2 screw, screw a nut onto it, and use the screw as a handle to push the 
 Then, slide the outer shell into position with inner shell and put in two M2x20mm screws to close up the shell.
 
 <img src="./Pics/01.jpg" width="400px" />
+
+
+------
+## Special Thanks
+
+Tianfeng (for verifying some uncertainties)
+- [Twitter](https://twitter.com/Tian_Feng44)
