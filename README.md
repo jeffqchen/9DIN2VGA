@@ -22,31 +22,28 @@ The default sync signal used in this design is CSync. If you prefer composite vi
 
 ## Parts
 
-9 pin Mini DIN Male Plug (Choose the 9PIN option)
-- https://www.aliexpress.com/item/4000139817115.html
-
-PCB
-- Main: https://oshpark.com/shared_projects/VMGQWaYo
-- Top Sub (0.8mm): https://oshpark.com/shared_projects/PPJPpJ3M
-- Bottom Sub (0.8mm): https://oshpark.com/shared_projects/QY4wR3iT
+- PCB
+  - [Main](https://oshpark.com/shared_projects/VMGQWaYo)
+  - [Top Sub - **0.8mm thickness**](https://oshpark.com/shared_projects/PPJPpJ3M)
+  - [Bottom Sub - **0.8mm thickness**](https://oshpark.com/shared_projects/QY4wR3iT)
 
   **Note the Top & Bottom sub boards MUST be ordered with the 0.8mm thickness option, otherwise they won't fit!**
 
-VGA Port Slim Female
-- https://www.aliexpress.com/item/4000596805684.html
+- 9 pin Mini DIN Male Plug, Cable Type (Choose the 9PIN option) - [Link](https://github.com/jeffqchen/JeffParts/blob/main/Connectors/Mini%20DIN/9Pin/Cable/info.md)
 
-3.5mm Headphone Jack PJ-325
-- https://www.aliexpress.com/item/1005002983859846.html
+- VGA Port Slim Female - [Link](https://github.com/jeffqchen/JeffParts/tree/main/Connectors/VGA%20Slim%20Female%20Through%20Hole/info.md)
+
+- 3.5mm Headphone Jack - [Link](https://github.com/jeffqchen/JeffParts/tree/main/Connectors/Vertical%203.5mm%205-Pin%20Audio%20Jack/info.md)
+
+- [2x] M2x20mm and [1x] M2x6mm screw and hex nut - [Link](https://github.com/jeffqchen/JeffParts/blob/main/Parts/M2%20M3%20Hex%20Screw%20%26%20Nut/info.md)
 
 Components:
-- [4x] SMD Capacitor 220uF 6.3V X5R, 1206 size
-  - Recommended part: [GRM31CR60J227ME11L](https://www.digikey.com/en/products/detail/GRM31CR60J227ME11L/490-13970-1-ND/6155800)
+- [4x] 220uF / 6.3V / Imperial 1206 Size - [[Link](https://github.com/jeffqchen/JeffParts/blob/main/Components/220uF%20SMD%20Cap/info.md)]
 - [2x] SMD Capacitor 10uF 6.3V, 0603 size
 - [1x] SMD Resistor 470 Ohm, 0603 size
 - [4x] SMD Resistor 75 Ohm, 0603 size
 
-[2x] M2x20mm and [1x] M2x6mm screw and hex nut
-- https://www.amazon.com/gp/product/B014OO5KQG
+
 
 -----------
 ## Print
