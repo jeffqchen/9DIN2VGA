@@ -41,7 +41,7 @@ Components:
 - [4x] 220uF / 6.3V / Imperial 1206 Size - [[Link](https://github.com/jeffqchen/JeffParts/blob/main/Components/220uF%20SMD%20Cap/info.md)]
 - [2x] SMD Capacitor 10uF 6.3V, 0603 size
 - [1x] SMD Resistor 470 Ohm, 0603 size
-- [4x] SMD Resistor 75 Ohm, 0603 size
+- [3x] SMD Resistor 75 Ohm, 0603 size
 
 
 
